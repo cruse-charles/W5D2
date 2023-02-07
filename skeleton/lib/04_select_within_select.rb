@@ -103,7 +103,6 @@ def sparse_continents
     SELECT continent
     FROM countries
     WHERE population > 25000000
-  ) 
-
+  )
   SQL
 end
